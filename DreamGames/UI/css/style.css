@@ -1,0 +1,63 @@
+/*Colors*/
+.cinza_primary_back{background-color: #424242;}
+.cinza_secundary_back{background-color: #BDBDBD;}
+.azul_back{background-color: #2196F3;}
+.white_back{background-color: #FFFFFF;}
+
+.cinza_primary{color: #424242;}
+.cinza_secundary{color: #BDBDBD;}
+.azul{color: #2196F3;}
+.white{color: #FFFFFF;}
+
+
+/*Fonts*/
+.Roboto{font-family: 'Roboto Condensed', sans-serif;}
+
+
+/*Paddings*/
+.pt-10{padding-top: 10px;}
+.pt-20{padding-top: 20px;}
+.pt-60{padding-top: 60px;}
+.pb-10{padding-bottom: 10px;}
+.pb-20{padding-bottom: 20px;}
+.pb-30{padding-bottom: 30px;}
+.pb-60{padding-bottom: 60px;}
+.pb-80{padding-bottom: 80px;}
+.pl-10{padding-left: 10px;}
+.pl-15{padding-left: 15px;}
+.pl-20{padding-left: 20px;}
+.pr-20{padding-right: 20px;}
+
+
+/*Margins*/
+.mb-10{margin-bottom: 10px;}
+.mb-20{margin-bottom: 20px;}
+.ml-5{margin-left: 10px;}
+.ml-10{margin-left: 10px;}
+.ml-15{margin-left: 15px;}
+.ml-20{margin-left: 20px;}
+.ml-40{margin-left: 40px;}
+.mr-5{margin-right: 5px;}
+.mr-10{margin-right: 10px;}
+.mr-20{margin-right: 20px;}
+.mr-40{margin-right: 40px;}
+
+
+/*NavBar*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Card-Component*/
+.BorderTopRight{
+	border-top-right-radius: 25px;
+}
+
+.BorderTopLeft{
+	border-top-left-radius: 25px;
+}
+
+.BorderCamp{
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE>
+<html ling="pt-br">
+	 <head>
+	     <title>Slipknot Fan Made</title>
+		 
+		 <meta charset="utf-8">
+		 
+		 <link rel="stylesheet" type="text/css" href="css/index.css">
+		 
+		 <style>
+             #conteudo
+			 {
+			  margin-top:120px;
+			  margin-left: 500px;
+			  position: absolute;
+			 }
+			 
+             #bloco1
+			 {
+			  position: absolute;
+			  margin-top:0px;
+			  left:40%;
+			  width: 400px;
+			 }
+	
+	
+	         label, input, select
+			 {
+			  font-size: 12px;
+			  margin-bottom: 10px;
+			 }
+
+	         input, select, textarea
+			 {
+			  background: #0C0C0C;
+			  color: white;
+			 }
+	
+	         label
+			 {
+			  color: #FFFFFF;
+			 }
+	
+	         textarea
+			 {
+			  resize:none;
+			  outline: none;
+			 }
+
+	         .campo
+			 {
+			  font-size: 12px;
+			  font-family: arial;
+			  color: #C1C1C1;
+			  width: 400px;
+			 }
+
+	
+
+	         fieldset
+			 {
+			  padding: 10px;
+			  border-color: #FFFFFF;
+			  background: #0C0C0C;
+			 }
+
+	         .botao
+			 {
+			  border: 3px solid #BBBBBB;
+			  font-size: 12px;
+			  font-family: arial;
+			  color: #000000;
+			  background: #f3f3f3;
+			  width: 100px;
+			  margin-top: 10px;
+			 }
+         </style>
+		 
+	 </head>
+     <body>
+	     <div id="Menu">
+		     <ul>
+			     <li><a href="index.html">HOME</a></li>
+				 <li><a href="biografias.html">BIOGRAFIAS</a></li>
+			     <li><a href="trajetoria.html">TRAJETÓRIA</a></li>
+				 <li><a href="curiosidade.html">CURIOSIDADES</a></li>
+				 <li><a href="sobrenos.html">SOBRE NÓS</a></li>
+				 <li><a href="contato.html">CONTATO</a></li>
+			 </ul>
+		 </div>
+		 <div id = conteudo>
+             <div id = bloco1>
+                 <fieldset>
+                     <form name = form1>
+                         <label>Nome:*</label>
+                         <input type='text'  name='nome' class='campo' required >
+      
+                         <label>E-mail:*</label>
+                         <input type="email" class='campo' required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      
+	                     <label>Idade:*<i>(Somente Números)</i></label>
+                         <input type='text' name='idade' class='campo' pattern="[0-9]+$" required>
+      
+	                     <label>Telefone Celular:* <i>ex:(99)99999-9999</i></label>
+                         <input type="tel" class='campo' required maxlength="15" name="tel" pattern="\(\d{2}\)\d{5}-\d{4}">
+      
+	                     <label>Telefone Fixo:* <i>ex:(99)0000-0000</i></label>
+                         <input type="tel" class='campo' required maxlength="15" name="tel2" pattern="\(\d{2}\)\d{4}-\d{4}">
+      
+	                     <label>Dia da Avaliaçao:*</label>
+	                     <input type="date" name="calendario"  class='campo'>
+	  
+	                     <label>Sexo:*</label>
+	                     <label>Masculino:</label>
+	                     <input type="radio" name="sexo"  value="masculino">
+                         <label>Feminino:</label>
+                         <input type="radio" name="sexo"  value="feminino" required><br>
+	                      <br>
+	                     <label>Estados:</label><br>
+	                     <select name="estados-brasil">
+	                         <option value="AC">Acre</option>
+		                     <option value="AL">Alagoas</option>
+		                     <option value="AP">Amapá</option>
+		                     <option value="AM">Amazonas</option>
+		                     <option value="BA">Bahia</option>
+		                     <option value="CE">Ceará</option>
+		                     <option value="DF">Distrito Federal</option>
+		                     <option value="ES">Espírito Santo</option>
+		                     <option value="GO">Goiás</option>
+		                     <option value="MA">Maranhao</option>
+		                     <option value="MT">Mato Grosso</option>
+		                     <option value="MS">Mato Grosso do Sul</option>
+		                     <option value="MG" selected>Minas Gerais</option>
+		                     <option value="PA">Pará</option>
+		                     <option value="PB">Paraíba</option>
+		                     <option value="PR">Paraná</option>
+		                     <option value="PE">Pernambuco</option>
+		                     <option value="PI">Piauí</option>
+		                     <option value="RJ">Rio de Janeiro</option>
+		                     <option value="RN">Rio Grande do Norte</option>
+		                     <option value="RS">Rio Grande do Sul</option>
+		                     <option value="RO">Rondônia</option>
+		                     <option value="RR">Roraima</option>
+		                     <option value="SC">Santa Catarina</option>
+		                     <option value="SP">Sao Paulo</option>
+		                     <option value="SE">Sergipe</option>
+		                     <option value="TO">Tocantins</option>
+	                     </select>
+	                      <br>
+                         <label>Comentários:</label>
+                         <textarea cols='50' rows='6' name='Comentarios' class='campo' placeholder="Digite aqui seu comentário ou dúvida/sugestao"></textarea>
+                          <br>
+                         <input type='submit' name='BTEnvia'  value='Enviar email' class = botao>
+                         <input type='reset' name='BTApaga'  value='Apagar' class = botao>
+                     </form>
+                 </fieldset>
+   
+             </div>
+         </div>	 
+		 <div id = "rodape">
+	         <div id = "copy">
+			     <font class = copyright>© Copyright Slipknot Fan Made 2017 - 2017. todos os direitos reservados.</font>
+			 </div>
+         </div>
+     </body>
+</html>

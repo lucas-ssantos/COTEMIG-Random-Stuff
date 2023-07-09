@@ -1,0 +1,70 @@
+
+/* BODY */
+
+body
+{
+  margin: 0px;	
+  background-color: #111111;
+}
+
+/* MENU */
+
+#menu
+{
+position: absolute;
+width: 100%;
+left:0px;
+background-color: #0C0C0C;
+text-align: center;
+
+}
+ul
+{
+	position: relative;
+	top:-10px;
+}
+ul li
+{
+  display: inline-table;
+  color: white;
+  margin-right: 10px;
+  padding-top: 25px;  
+}
+
+ul li a
+{
+  text-decoration: none;
+  color: white  
+}
+
+ul li a:hover
+{
+ color: rgba(255, 0, 0, 0.8); 	
+}
+
+/* RODAPÉ */
+
+#rodape
+{
+  margin-top:780px;
+  margin-left: 100px;
+  position : absolute;
+  width : 1390px; 
+  height: 60px;
+  background-color:#0C0C0C;
+}
+
+#copy
+{
+  margin-top:25px;
+  position : absolute;
+  margin-left: 525px;
+}
+
+.copyright
+{
+  color: #ffffff;
+  font-size: 11.5px;
+  font-family: arial;
+  font-weight: bold;
+}

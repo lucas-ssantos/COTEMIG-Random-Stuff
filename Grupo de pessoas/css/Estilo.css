@@ -1,0 +1,384 @@
+/*==================
+    GERAL
+====================*/
+
+p{
+  text-align: justify;
+}
+
+/*==================
+ Inicio Organização 
+ de efeito Fadein
+====================*/
+#Fadein  {
+-webkit-animation: fadein 2s; /* Safari, Chrome e Opera  */
+-moz-animation: fadein 2s; /* Firefox  */
+-ms-animation: fadein 2s; /* Internet Explorer */
+-o-animation: fadein 2s; /* Opera  */
+ animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/*==================
+ Inicio Organização 
+ da estilização do 
+        menu
+====================*/
+
+
+			ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: rgba(3,3,3,0.75);
+			  position: -webkit-sticky;
+			  position: sticky;
+			  top: 0;
+			  z-index: 1;
+			}
+
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			}
+
+			li a:hover {
+			  background-color: #111;
+			  text-decoration: gray;
+			  color:gray;
+			}
+
+
+/*==================
+ INICIO DESC 
+ PERSONALIDADES
+====================*/
+#personalidades-post {
+  background-color: #333;
+  display: inline;
+  float: left;
+  padding: 40px 0;
+  width: 100%;
+}
+
+
+#personalidades-post .personalidades-post-area-img {
+  display: inline;
+  float: left;
+	width: 50%;
+	
+}
+
+#personalidades-post .personalidades-post-area {
+  display: inline;
+  float: left;
+	width: 100%;
+	
+}
+
+.personalidades-post-titulo h2{
+	color:#EEDD82;
+	font-family:Allerta Stencil;
+    font-size:25px;
+    text-align: center;
+    	padding:20px;
+}
+
+.personalidades-post-titulo h2 small{
+	color:#DAA520;
+	font-size:30px;
+}
+
+.personalidades-post-titulo p{
+	color:#fff;
+	padding:20px;
+}
+
+#personalidades-post .personalidades-post-area .personalidades-post-conteudo {
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Estilo 2 */
+
+#personalidades-post1 {
+  background-color: #fff;
+  display: inline;
+  float: left;
+  padding: 40px 0;
+  width: 100%;
+}
+
+
+#personalidades-post1 .personalidades-post1-area-img {
+  display: inline;
+  float: left;
+	width: 50%;
+	border: 2px solid #FF8C00;
+}
+
+#personalidades-post .personalidades-post1-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.personalidades-post1-titulo h2{
+	color:#000;
+	font-family:Allerta Stencil;
+    font-size:25px;
+    text-align: center;
+    	padding:20px;
+}
+
+.personalidades-post1-titulo h2 small{
+	color:#DAA520;
+	font-size:30px;
+}
+
+.personalidades-post1-titulo p{
+	color:#000;
+	padding:20px;
+}
+
+#personalidades-post1 .personalidades-post1-area .personalidades-post1-conteudo {
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+
+/*==================
+ INICIO efeito foto
+====================*/
+
+			.Header {
+			  padding:21em;
+			  text-align:center;
+			  background-image: url('Backgroundmenu.jpg'); 	
+				background-repeat: no-repeat;
+				opacity: 1;
+			}
+
+			.Header:after {
+				top:0;
+				bottom:0;
+				left:0;
+				right:0;
+				background-color: rgba(0,0,0,.6);
+			}
+			.Header h2 {
+			  font-family: Sofia		;
+			  font-size: 6em;
+			  font-weight: 200;
+			  text-shadow: 0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8);
+			}	
+			.Header h4 {
+			  font-family: Sofia		;
+			  font-size: 2em;
+			  font-weight: 200;
+			}
+			
+			
+			.Body1 {
+				background-image: url("imagens/bodybackground.jpg");
+				background-repeat: no-repeat;
+			}
+			
+			.box h4 {
+
+				font-family: Aclonica;	
+
+			}
+
+			#content1 {
+				 border: 1.5px solid #CDB7B5;
+			}
+			#content2 {
+				 border: 1.5px solid #B2DFEE;
+			}
+			#content3 {
+				 border: 1.5px solid #0489B1;
+			}
+
+			.footer {
+			  background: #363636;
+			  padding: 30px 15px;
+			  }
+
+			.footer:hover {
+			  background: #4F4F4F;
+			  padding: 30px 15px;
+			  -webkit-transition: all 0.3s linear;
+			  -moz-transition: all 0.3s linear;
+			  -o-transition: all 0.3s linear;
+			  -ms-transition: all 0.4s linear;
+			  transition: all 0.5s linear;
+			}
+
+			.footer p {color:white; text-align: center;}
+
+
+
+			.box {
+			  background: #fff;
+			  background: rgba(255,255,255,0.9);
+			  background-image: url("imagens/rock.jpg");
+			  margin-bottom: 20px;
+			  padding: 30px 15px;
+			}
+
+/*==================
+      Botoes
+====================*/
+
+ .button {
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+
+.leiamais {
+  background-color: transparent;
+  color: #FFFACD;
+	border: 2px solid #FF8C00;
+
+}
+
+.leiamais:hover {
+  background-color: transparent;
+  color: #FFFACD;
+	border: 2px solid #FF8C00;
+	opacity:1.0;
+	font-family: arial;
+  font-size:14px;
+  font-weight:700;
+  text-transform: uppercase;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Crecer  usar hover texto -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3); /*
+		
+		
+/*==================
+ INICIO Roqueiro
+====================*/
+
+			
+			
+			
+.pagina{
+	background-color: #181818;
+	color: white;
+	 padding: 20px;
+}
+
+.text{
+  color: white;	
+}
+
+.pagina h1{
+	text-align: center;
+	padding-bottom:35px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+
+}
+.conteudo {padding:75px;}
+
+/*==================
+ INICIO Comentarios
+====================*/
+
+.comentario{
+  background-color: #181818;
+  color: white;
+}
+
+.comentario h5{
+	text-align: left;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-color: #990033;
+  outline: none;
+}
+
+.traco{
+ border-top: 1px dashed #990033;
+}
+
+.traco2{
+ border-top: 3px dashed #990033;
+}
+
+.user{
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+}
